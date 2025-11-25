@@ -149,3 +149,30 @@ Scene 4: DNA + Map + Summary₃ → [Text₄]
 - Multi-language generation and translation using LLMs
 
 
+
+# How to Run the Project
+
+
+Follow these steps to run the Story Reimagination System on your machine.
+
+
+## 1. Create a Virtual Environment
+```bash
+python3 -m venv venv
+source venv/bin/activate # On macOS/Linux
+venv\\Scripts\\activate # On Windows
+```
+##  2. Install Dependencies
+
+Ensure the virtual environment is active, then run:
+```bash
+pip install -r requirements.txt
+```
+## 3. Run the Application
+```bash
+python run.py
+```
+This will:
+- Validate environment
+- Create required output directories
+- Launch the Streamlit UI
