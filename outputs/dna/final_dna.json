@@ -1,0 +1,44 @@
+{
+  "plot_arc": {
+    "setup": "Della and Jim, a loving but impoverished couple, each cherishes a prized possession\u2014Della her long hair, Jim his heirloom gold watch. Facing Christmas with only $1.87, Della desperately seeks a way to buy Jim a meaningful gift.",
+    "conflict": "Driven by love, Della decides to sell her hair to a practical hair dealer for $20, sacrificing her most valued asset. She buys a platinum chain for Jim's treasured watch, excited to surprise him.",
+    "climax": "When Jim arrives home, he is stunned by Della\u2019s transformed appearance. He reveals he sold his prized watch to buy jeweled combs for Della\u2019s hair, creating a moment of painful, loving irony as both gifts now have no practical purpose.",
+    "resolution": "Realizing the depth of their mutual sacrifice, Della and Jim embrace, understanding the true value of their love. Their selflessness is likened to the wisdom of the magi, making the moment profoundly meaningful despite material loss."
+  },
+  "characters": [
+    {
+      "name": "Della",
+      "role": "Wife, protagonist",
+      "core_trait": "sacrificial",
+      "arc": "Grows from desperation and insecurity to wisdom, embracing the realization that true love is measured in sacrifice rather than material gifts."
+    },
+    {
+      "name": "Jim",
+      "role": "Husband, Della's counterpart",
+      "core_trait": "devoted",
+      "arc": "Transitions from humble provider to an embodiment of selfless love, learning that giving up what he treasures most only deepens his bond with Della."
+    },
+    {
+      "name": "Hair dealer",
+      "role": "Enabler of Della\u2019s sacrifice",
+      "core_trait": "practical",
+      "arc": "Functions as a catalyst with no emotional development, facilitating Della\u2019s selfless act."
+    }
+  ],
+  "themes": [
+    "Sacrifice for love",
+    "Irony of selfless giving",
+    "True wisdom in selflessness"
+  ],
+  "critical_moments": [
+    "Della laments her lack of money for Jim's gift, establishing their financial hardship.",
+    "Della sells her prized hair to the hair dealer, making her ultimate sacrifice.",
+    "Jim arrives home and reveals he sold his gold watch for Della\u2019s gift.",
+    "The couple exchanges gifts, discovering the futility yet beauty in their sacrifices.",
+    "They embrace, realizing their deep mutual love through selflessness."
+  ],
+  "character_dynamics": [
+    "Della and Jim\u2014a relationship defined by deep devotion and reciprocal sacrifice. Their actions mirror each other\u2019s selflessness, leading to emotional revelation and strengthened love.",
+    "The hair dealer\u2014a pragmatic figure who enables Della\u2019s sacrifice, acting as a necessary but emotionally detached participant."
+  ]
+}

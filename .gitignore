@@ -1,0 +1,59 @@
+# ------------------------
+# Environment & Secrets
+# ------------------------
+.env
+.env.*
+*.env
+
+# Python virtual environments
+venv/
+venv*/
+.env/
+.venv/
+.venv*/
+ENV/
+env/
+env*/
+
+# ------------------------
+# Python cache
+# ------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ------------------------
+# Logs & debug
+# ------------------------
+*.log
+logs/
+debug/
+
+# ------------------------
+# Build / Distribution
+# ------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ------------------------
+# IDE / Editor
+# ------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ------------------------
+# OS files
+# ------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# Local data / artifacts (if any)
+# ------------------------
+data/
+tmp/
+cache/
