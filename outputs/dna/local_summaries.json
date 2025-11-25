@@ -2,34 +2,179 @@
   {
     "characters": [
       {
-        "name": "Della",
-        "role": "wife",
+        "name": "Lira",
+        "role": "protagonist",
+        "trait": "sensitive to mana"
+      },
+      {
+        "name": "Cael",
+        "role": "Lira's husband",
         "trait": "self-sacrificing"
       },
       {
-        "name": "Jim",
-        "role": "husband",
-        "trait": "devoted"
+        "name": "Master Vorin",
+        "role": "relic broker",
+        "trait": "official, no-nonsense"
       },
       {
-        "name": "hair dealer",
-        "role": "buyer of Della's hair",
-        "trait": "businesslike"
+        "name": "senior enchanters",
+        "role": "Vault workers",
+        "trait": "covet Lira's hair"
+      },
+      {
+        "name": "unknown engineer",
+        "role": "conduit tuner",
+        "trait": "distant"
+      },
+      {
+        "name": "Relic Brokers",
+        "role": "market sellers",
+        "trait": "active"
       }
     ],
     "events": [
-      "Della discovers she has only $1.87 saved for Jim's Christmas present.",
-      "She decides to sell her long hair for twenty dollars.",
-      "Della buys a platinum chain for Jim's watch.",
-      "Jim returns home and reacts with shock upon seeing Della.",
-      "Jim reveals he bought jeweled combs for Della's hair.",
-      "Della gives Jim the chain and learns he sold his watch to buy the combs.",
-      "The couple embraces, realizing the depth of their mutual sacrifice."
+      "Lira listens to the city's mana-driven dawn from her alcove.",
+      "She counts her meager supply of mana shards, worries about their insufficiency.",
+      "Cael's cloak and chronoglyph are described; the chronoglyph comforts Lira.",
+      "Lira interacts with her living antenna-hair and reflects on its value.",
+      "Preparations for Solstice celebrations begin outside.",
+      "Lira feels the weight of poverty and her inability to provide for the Exchange.",
+      "Cael joins Lira, discusses finances, and suggests working more hours.",
+      "Lira refuses Cael's sacrifice, preferring he not overwork for the sake of a Solstice gift.",
+      "They discuss the meaning of the Exchange; Cael reassures Lira.",
+      "Cael prepares for work; Lira contemplates their strained resources.",
+      "Lira conceives a risky idea prompted by desperation.",
+      "Lira accompanies Cael to the tram, claims she has a market errand.",
+      "Lira heads for the market-ring instead of her usual job, determined to act.",
+      "Lira enters the relic market, notices couples, and approaches Master Vorin's stall."
     ],
     "themes": [
-      "self-sacrifice for love",
-      "irony of gift-giving",
-      "true value of devotion"
+      "Scarcity and sacrifice in relationships",
+      "Steadfast love tested by material lack",
+      "Pressure of societal expectations during rituals",
+      "Personal value versus public perception",
+      "Desperation leading to risky choices"
+    ]
+  },
+  {
+    "characters": [
+      {
+        "name": "Lira",
+        "role": "protagonist, seller",
+        "trait": "self-sacrificing"
+      },
+      {
+        "name": "Master Vorin",
+        "role": "de-binder, shopkeeper",
+        "trait": "practical"
+      },
+      {
+        "name": "Cael",
+        "role": "Lira's husband",
+        "trait": "stoic"
+      }
+    ],
+    "events": [
+      "Lira enters a stall offering de-bindings and surveys wares.",
+      "Lira reveals her living, conduit-type hair and requests mana shards.",
+      "Vorin discusses the consequences of selling hair; Lira consents.",
+      "Lira undergoes de-binding ritual, hair is cut and collected.",
+      "Vorin weighs the hair, pays Lira twenty refined mana shards.",
+      "Lira purchases a chronoglyph chain for Cael in the jeweler's quarter.",
+      "Lira returns home, feeling the loss and dullness after losing her hair.",
+      "Lira prepares and rehearses giving the chain to Cael.",
+      "Cael arrives, notices Lira's shorn hair, is shocked.",
+      "Lira explains the sacrifice was for him and gives him the new chain."
+    ],
+    "themes": [
+      "Sacrifice for love: Lira sells part of herself for Cael.",
+      "Material and emotional cost: Transaction carries personal loss.",
+      "Identity and worth: Lira measures her value through her actions.",
+      "Ritual and bureaucracy: De-binding is impersonal, regulated."
+    ]
+  },
+  {
+    "characters": [
+      {
+        "name": "Lira",
+        "role": "Protagonist",
+        "trait": "self-sacrificing"
+      },
+      {
+        "name": "Cael",
+        "role": "Lira's partner",
+        "trait": "devoted"
+      },
+      {
+        "name": "Vorin",
+        "role": "Enchanter/merchant",
+        "trait": "meticulous"
+      },
+      {
+        "name": "Elder AI",
+        "role": "City overseer",
+        "trait": "bureaucratic"
+      }
+    ],
+    "events": [
+      "Cael presents Lira with a velvet case containing combs attuned to her hair.",
+      "Lira realizes her hair is too short for the combs, feeling guilt and uselessness.",
+      "Cael reveals he sold his family chronoglyph to purchase the combs.",
+      "Lira admits having sold her hair to buy a chain for Cael's chronoglyph.",
+      "They laugh about the inefficiency and absurdity of their trades.",
+      "Cael and Lira exchange the remaining items, encouraging each other to keep them as tokens.",
+      "The Elder Vault registers their auras flaring brightly.",
+      "Lira and Cael sit together, acknowledging their losses and the changed state of their lives.",
+      "They discuss their sacrifices and anticipated public gossip.",
+      "Cael reflects on missing the chronoglyph but appreciating new quiet with Lira."
+    ],
+    "themes": [
+      "Sacrifice for love",
+      "Irony and futility in acts of devotion",
+      "Reevaluation of value and priorities",
+      "Connection amidst loss"
+    ]
+  },
+  {
+    "characters": [
+      {
+        "name": "Lira",
+        "role": "Protagonist, tuner",
+        "trait": "Self-sacrificing"
+      },
+      {
+        "name": "Cael",
+        "role": "Partner to Lira",
+        "trait": "Practical"
+      },
+      {
+        "name": "Vorin",
+        "role": "Relic broker, referenced",
+        "trait": "Procedural"
+      },
+      {
+        "name": "Elder AI",
+        "role": "City's artificial intelligence",
+        "trait": "Analytical"
+      }
+    ],
+    "events": [
+      "Lira listens to Cael's heartbeat and confesses her insecurities about her gift.",
+      "Cael dismisses romanticized ideals and recalls them discarding relics.",
+      "Cael asks Lira if she regrets her sacrifice; Lira admits partial regret but feels fulfillment.",
+      "The Elder AI observes an anomalous aura-brightening event and flags it.",
+      "Cael jokes about their lack of relics and suggests alternative uses for them.",
+      "They discuss repurposing the relics, finding hope in new beginnings.",
+      "Lira and Cael connect over the loophole in relic binding and share amusement.",
+      "Lira identifies their relationship as an unquantifiable source of mana.",
+      "The Elder AI documents their case as a study on impractical generosity.",
+      "Lira and Cael leave to join Solstice celebrations, symbolically united."
+    ],
+    "themes": [
+      "Sacrifice for love and connection",
+      "Imperfect individuals finding fulfillment",
+      "Personal acts defying systems of optimization",
+      "Hope and renewal despite loss"
     ]
   }
 ]

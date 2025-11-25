@@ -1,45 +1,51 @@
 {
-  "plot_arc": {
-    "setup": "Della and Jim, a loving but impoverished married couple, each secretly resolves to buy the other a meaningful Christmas gift despite their lack of money.",
-    "conflict": "Della sells her prized long hair to buy Jim a chain for his treasured watch; unbeknownst to her, Jim, struggling with his own lack of funds, sells his watch to buy jeweled combs for her hair.",
-    "climax": "When gifts are exchanged, both realize their sacrifices have rendered the gifts practically useless but deeply meaningful.",
-    "resolution": "Della and Jim embrace, recognizing that their selfless love is more valuable than any material gift, reinforcing the true spirit of giving."
-  },
   "characters": [
     {
-      "name": "Della",
-      "role": "wife",
-      "core_trait": "self-sacrificing",
-      "arc": "Gives up her most valued possession for love, realizing that true devotion surpasses material wealth."
+      "name": "Lira",
+      "role": "Protagonist; mana-sensitive seller/tuner",
+      "core_trait": "Self-sacrificing, sensitive, driven by love",
+      "arc": "Driven by anxiety over scarcity and desire to provide, makes a personal sacrifice; comes to accept both her loss and the true, irreplaceable value of her bond with Cael."
     },
     {
-      "name": "Jim",
-      "role": "husband",
-      "core_trait": "devoted",
-      "arc": "Sells his treasured watch for his wife's happiness, understanding the depth of their mutual sacrifice."
+      "name": "Cael",
+      "role": "Lira's spouse, practical emotional anchor",
+      "core_trait": "Stoic, devoted, self-sacrificing",
+      "arc": "Willing to sacrifice treasured possessions for Lira's happiness, only to realize the ironic futility of their exchanges and find fulfillment in togetherness."
     },
     {
-      "name": "Hair Dealer",
-      "role": "neutral buyer",
-      "core_trait": "businesslike",
-      "arc": "Facilitates Della\u2019s sacrifice, representing the transactional nature of her choice."
+      "name": "Master Vorin",
+      "role": "Impersonal enchanter, mana relic broker",
+      "core_trait": "Procedural, meticulous, detached",
+      "arc": "Serves as the face of bureaucratic, indifferent systems; his interactions highlight the emotional gulf between official processes and personal sacrifice."
+    },
+    {
+      "name": "Elder AI",
+      "role": "City overseer, bureaucratic observer",
+      "core_trait": "Analytical, impersonal",
+      "arc": "Documents Lira and Cael\u2019s choices as deviations from expected utility, missing the depth of their emotional connection."
     }
   ],
-  "themes": [
-    "Self-sacrifice for love",
-    "Irony of gift-giving",
-    "True value of devotion"
-  ],
   "critical_moments": [
-    "Della discovers she has only $1.87 and decides to sacrifice her hair.",
-    "Della sells her hair and buys a platinum chain for Jim.",
-    "Jim returns, revealing his shock and the combs he bought for Della.",
-    "Gifts are exchanged; both realize the ironic futility yet deep meaning of their presents.",
-    "They embrace, recognizing that their greatest gift is the love they share."
+    "Lira, desperate, decides to sell her living, mana-rich hair to buy a Solstice gift for Cael.",
+    "At the relic market, she undergoes the de-binding ritual with Master Vorin, exchanging her hair for mana shards.",
+    "Lira purchases a chronoglyph chain for Cael; he, unbeknownst to her, sells his prized family chronoglyph to buy hair combs for Lira.",
+    "During the Solstice exchange, both discover the ironic futility of their respective sacrifices\u2014their gifts rendered practically useless.",
+    "They find humor and solace in each other, realizing their relationship\u2019s value surpasses material exchanges; the Elder AI observes and misinterprets their emotional anomaly."
   ],
+  "themes": [
+    "Love and sacrifice amid scarcity",
+    "The irony of material exchanges in relationships",
+    "Systems versus personal meaning"
+  ],
+  "plot_arc": {
+    "setup": "Lira and Cael, a loving but impoverished couple, face pressure to provide meaningful Solstice gifts amid social expectations and personal scarcity.",
+    "conflict": "Lira, feeling inadequate, resolves to take a drastic, risky step\u2014selling her valued, magical hair\u2014to acquire a gift for Cael, paralleling his own hidden sacrifice.",
+    "climax": "At the Solstice exchange, each reveals their self-sacrificial gift only to find their efforts ironically nullified\u2014their gifts can't be used as intended.",
+    "resolution": "Their mutual honesty and laughter lead them to accept the meaning behind their gestures; they reaffirm their connection, finding hope and renewal together, observed and misunderstood by the bureaucratic Elder AI."
+  },
   "character_dynamics": [
-    "Della and Jim\u2019s marriage is built on deep mutual devotion and the willingness to sacrifice personal treasures for the other.",
-    "Their parallel acts of self-sacrifice highlight their unity, while the resulting irony strengthens their bond.",
-    "Interaction with the hair dealer is impersonal, underscoring the emotional significance of Della\u2019s sacrifice in contrast with the world's indifference."
+    "Lira and Cael share a deeply supportive but strained relationship, each secretly sacrificing to fulfill the other's needs, resulting in mutual irony and growth.",
+    "Master Vorin embodies the system\u2019s cold functionality, directly contrasting with Lira\u2019s warmth and vulnerability.",
+    "The Elder AI, as emotionless observer, records their actions but cannot grasp their true significance, highlighting the gap between systemic oversight and human emotion."
   ]
 }

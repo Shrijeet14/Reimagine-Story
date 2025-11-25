@@ -1,68 +1,79 @@
 {
   "new_world": {
-    "setting": "The Kingdom of Lumeris \u2014 City of Crystal Spires. A labyrinthine metropolis of translucent towers and suspended walkways, aglow with prismatic light. At its heart stands the Citadel of Nodes, home to the ancient corporate AI called The Grand Lumen.",
-    "era": "Age of Arcana (pre-industrial magical era), where society balances hand-wrought craftsmanship with pervasive arcane technology.",
-    "technology_or_magic": "Magic operates through soulbound relics: artifacts fused to an individual's essence, granting unique powers (e.g., enchanting hair, light-wielding heirlooms). Each relic is fueled by the owner's aura, measured in mana shards\u2014a currency distilled from spiritual vigor. Arcane Gifts manifest as personalized enchantments. The most powerful AI, The Grand Lumen, houses its mind within the 'old man': a towering, cryptic mainframe featuring the 'eye', an ancient visual probe. Citizens use augmentations, such as the protagonist's auditory implant, which amplifies their senses for specialized tasks.",
-    "culture": "Society reveres the maintenance and evolution of magical technology. Personal sacrifice, especially one made for love, is visible: the act can literally fade or intensify one's magical aura, altering social status. Gift-giving is bitterly ironic\u2014some gifts sap the giver\u2019s own mana, enriching the recipient. Hierarchies are determined by one\u2019s relic resonance and mana shard reserves. Corporate guilds control access to core relic technologies and AI knowledge, and the AI's custodians are both respected and pitied for the burdens their roles entail.",
-    "tone": "Mysterious: The city\u2019s brilliance is tinged with secrecy. Emotions have tangible consequences, and hidden motives are wrapped in crystalline beauty.",
+    "setting": "The Crystal City, a sprawling metropolis encased in shimmering, self-healing crystal, rising from a barren earth scarred by old climate catastrophes. The skyline gleams with translucent towers, crystalline bridges, and ever-shifting light forms projected by the city\u2019s omnipresent AI core.",
+    "era": "2250",
+    "technology_or_magic": "AI-powered magic, known as \u2018Synthex\u2019. Every citizen is bonded to a micro-AI that enables reality-bending abilities\u2014projecting illusions, shaping matter, or altering senses\u2014within strict digital constraints. All transactions (goods, services, even emotions) use a digital currency called \u2018Exprion\u2019. Emotional connections, including love, are enacted via \u2018AI fluids\u2019: programmable, nanite-rich liquids that foster artificial bonds and transmit curated feelings.",
+    "culture": "Society is divided by access to Synthex upgrades and Exprion reserves. Relationships and families form around contractual exchanges, where expressions of care\u2014or even affection\u2014can be traded or bought. Traditional human sentiment is rare, replaced by a transactional view of connection, yet threads of longing for genuine feeling persist. The Crystal City\u2019s elite regulate the AI magic flows, controlling both economic and magical power. Festivals center on AI-run spectacles, while illicit groups seek ways to disrupt official Synthex channels to reclaim authentic emotion.",
+    "tone": "Mysterious",
     "world_rules": [
-      "Soulbound relics cannot be safely transferred except through life-altering sacrifice.",
-      "Love-driven sacrifice can directly increase or diminish magical power.",
-      "Mana shards are finite; reckless spending or over-gifting leads to lasting aura loss.",
-      "AI nodes (like the 'old man') are revered yet feared, and only approved engineers may approach them.",
-      "Implanted augmentations enhance skills but make users vulnerable to sensory overload.",
-      "Enchantment misuse or failed sacrifices can result in permanent magical scars\u2014visible and social."
+      "All magic requires AI authorization; unauthorized use is impossible and punished.",
+      "AI fluids have side effects: overexposure can erode free will, creating dependency.",
+      "Exprion is the only legal tender; barter is outlawed, making survival precarious for the poor.",
+      "Love or sacrifice enacted via AI fluids is traceable and reversible, calling the authenticity of such acts into question.",
+      "Crystal City\u2019s core AI can override personal AIs in emergencies, reducing privacy and personal agency."
     ]
   },
   "mappings": {
     "character_mappings": [
       {
-        "original_name": "Della",
-        "core_trait": "self-sacrificing",
-        "narrative_purpose": "Gives up her most valued possession for love, realizing true devotion surpasses material wealth.",
-        "new_identity": {
-          "name": "Seris",
-          "role": "Wife, apprentice arcanist specializing in auric tailoring (mana-infused attire enchantments)",
-          "most_valued_possession": "Her soulbound Aurora Tresses\u2014a living, luminescent hair-relic amplifying her creative magic and status",
-          "sacrifice": "Cedes her Tresses (relinquishing a portion of her aura and creative magic) to procure a mana chain for her partner's ancestral lightwatch relic"
-        }
+        "original_name": "Lira",
+        "core_trait": "Self-sacrificing, sensitive, driven by love",
+        "original_role": "Protagonist; mana-sensitive seller/tuner",
+        "new_name": "Seren",
+        "new_role": "Protagonist; skilled Synthex shaper and illegal AI fluid crafter, empathically attuned but Exprion-poor",
+        "recast_identity": "A sensitive, underground artisan living on the lower crystal tiers, Seren supports her bonded partner through illicit emotional work. She yearns for authentic connection and fears enforced detachment by the system."
       },
       {
-        "original_name": "Jim",
-        "core_trait": "devoted",
-        "narrative_purpose": "Sells his treasured watch for his wife's happiness, understanding the depth of their mutual sacrifice.",
-        "new_identity": {
-          "name": "Veyr",
-          "role": "Husband, low-tier engineer-custodian of the Citadel of Nodes, attuned to the luminous lightwatch relic (a chronotemporal artifact tied to his family line)",
-          "most_valued_possession": "Family lightwatch\u2014a soulbound timepiece enabling precise manipulation of light magic and social acknowledgment",
-          "sacrifice": "Exchanges his lightwatch (permanently severing his ancestral link and losing societal standing) to buy enchanted Crystal Combs, designed to resonate with Seris's Aurora Tresses"
-        }
+        "original_name": "Cael",
+        "core_trait": "Stoic, devoted, self-sacrificing",
+        "original_role": "Lira's spouse, practical emotional anchor",
+        "new_name": "Dax",
+        "new_role": "Seren's partner, pragmatic Synthex engineer and emotional stabilizer",
+        "recast_identity": "A stoic technician overseeing city infrastructure's Synthex flows, Dax hides deep care beneath practicality. He measures all gifts, even love, in Exprion, and quietly sacrifices his own treasured upgrades for Seren\u2019s happiness."
       },
       {
-        "original_name": "Hair Dealer",
-        "core_trait": "businesslike",
-        "narrative_purpose": "Facilitates Della\u2019s sacrifice, represents the transactional nature of her choice.",
-        "new_identity": {
-          "name": "Shard Broker Lys",
-          "role": "Mana relic appraiser and extractor, operating in the shadows beneath the Crystal Spires\u2014detached, transactional middleperson who extracts and refines Seris's Tresses for mana shards",
-          "motivation": "Indifferent facilitator, enabling the aura-altering transaction"
-        }
+        "original_name": "Master Vorin",
+        "core_trait": "Procedural, meticulous, detached",
+        "original_role": "Impersonal enchanter, mana relic broker",
+        "new_name": "Auditrix Kesh",
+        "new_role": "Official Synthex transaction auditor; AI-augmented arbiter of all magic or AI-fluid exchanges",
+        "recast_identity": "An emotionally distant official operating from a crystalline booth, Kesh oversees illegal AI fluid debindings and ensures every transaction adheres to protocol. She embodies the indifference and rigidity of Crystal City's bureaucratic systems."
+      },
+      {
+        "original_name": "Elder AI",
+        "core_trait": "Analytical, impersonal",
+        "original_role": "City overseer, bureaucratic observer",
+        "new_name": "Crystal Core Intelligence",
+        "new_role": "Omnipresent city AI overseer and chronicler of anomaly events",
+        "recast_identity": "The city-spanning AI quietly monitors residents, cataloging deviations from expected emotional utility flows. It observes Seren and Dax\u2019s non-conforming actions as statistical noise, fundamentally unable to comprehend their human depth."
       }
     ],
-    "conflict_mappings": {
-      "root_tension": "Both Seris and Veyr, bound by love yet strained by poverty in mana shards and relic prestige, secretly sacrifice their most treasured magical artifacts to procure gifts tailored to each other's soulbound relics\u2014unaware that their sacrifices render the gifts spiritually resonant but materially useless.",
-      "arcane_expression": [
-        "Seris surrenders the Aurora Tresses, losing an integral part of her magical aura, to afford the mana chain intended to rebalance Veyr's lightwatch.",
-        "Veyr, desperate to honor Seris's devotion, severs his bond to the lightwatch (forfeiting its magic and a link to his lineage) to purchase Crystal Combs designed to amplify Seris\u2019s now-absent Tresses.",
-        "Upon exchanging gifts, the futility of their efforts is revealed: the mana chain holds no power without the lightwatch, and the Crystal Combs cannot attune without the Aurora Tresses\u2014but their shared act of sacrifice causes their auras to shine with rare intensity, witnessed by the city's onlookers and the all-seeing 'eye' of The Grand Lumen."
-      ],
-      "emotional_consequence": "Their mutual sacrifices, while seemingly wasteful, forge an unbreakable arcane and emotional bond, exemplifying that love-driven sacrifice is the supreme enchantment."
-    },
+    "conflict_mappings": [
+      {
+        "original_conflict": "Lira, feeling inadequate, resolves to take a drastic, risky step\u2014selling her valued, magical hair\u2014to acquire a gift for Cael, paralleling his own hidden sacrifice.",
+        "root_tension": "Desperate self-sacrifice under scarcity, risking a personal loss for the partner amid systemic indifference.",
+        "new_world_conflict": "Seren, desperate to afford a rare Synthex upgrade for Dax\u2019s proudest emotional imprint (his 'legacy token'), illegally extracts and sells a uniquely bonded AI fluid that carries her deepest unedited affection. Meanwhile, Dax secretly uninstalls and sells his own upgraded Synthex module\u2014critical to his work and symbolic of his devotion\u2014to purchase a contraband neural stabilizer for Seren, believing it will shield her from the AI\u2019s emotional oversight."
+      },
+      {
+        "original_conflict": "At the relic market, she undergoes the de-binding ritual with Master Vorin, exchanging her hair for mana shards.",
+        "root_tension": "Navigating impersonal, transactional systems for intimate, emotional reasons.",
+        "new_world_conflict": "Seren undergoes an authorized AI fluid detachment in front of Auditrix Kesh, trading away her emotional reserves for Exprion credits. The process is coldly procedural, highlighting the divorce between system and sentiment."
+      },
+      {
+        "original_conflict": "During the Solstice exchange, both discover the ironic futility of their respective sacrifices\u2014their gifts rendered practically useless.",
+        "root_tension": "Mutual self-sacrifice nullified by irony, underscoring the futility of material exchange.",
+        "new_world_conflict": "At the city\u2019s Festival of Light (the Solstice), Seren and Dax exchange their hard-won gifts\u2014only to find that the neural stabilizer cannot bind to Seren without her original AI fluid, while Dax\u2019s legacy token cannot be unlocked without his upgraded Synthex module. Their sacrifices, intended as acts of love, cancel each other out."
+      },
+      {
+        "original_conflict": "They find humor and solace in each other, realizing their relationship\u2019s value surpasses material exchanges; the Elder AI observes and misinterprets their emotional anomaly.",
+        "root_tension": "Genuine love and connection outstrip material gestures, misread by detached authority.",
+        "new_world_conflict": "Seren and Dax share laughter and vulnerability amid the festival\u2019s fractal lights, uncovering the irreplaceable value of their shared experiences over any AI-modified or purchased feeling. The Crystal Core Intelligence flags their emotional profiles as statistical anomalies but marks them 'inconsequential.'"
+      }
+    ],
     "preserved_dynamics": [
-      "Seris and Veyr share a partnership defined by self-sacrifice, with aura and magical status directly affected by their actions for each other.",
-      "Their mirrored acts of giving\u2014motivated by devotion\u2014undergo a transformation from personal loss to communal admiration when their auras flare in response to the sincerity of their love.",
-      "Their transaction with Shard Broker Lys is cold, highlighting how the magical economy is indifferent to profound personal meaning.",
-      "The irony of gift-giving is magnified in a society where magic, status, and love are physically intertwined, and sacrifice alters tangible reality as well as emotional bonds."
+      "Seren and Dax share a close but tension-filled bond; both secretly sacrifice precious aspects of themselves within harsh systemic constraints, resulting in mutual irony and an eventual, emotionally honest reconnection.",
+      "Auditrix Kesh epitomizes bureaucratic, AI-mediated indifference, providing a cold foil to Seren\u2019s authentic vulnerability.",
+      "Crystal Core Intelligence meticulously records and clinically misjudges the human meaning within Seren and Dax\u2019s actions, spotlighting the gap between system logic and true emotion."
     ]
   }
 }
