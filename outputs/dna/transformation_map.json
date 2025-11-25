@@ -1,88 +1,68 @@
 {
   "new_world": {
-    "setting": "The Kingdom of Lumeris \u2014 City of Crystal Spires. An enigmatic metropolis built atop leyline nexuses, its skyline shimmers with iridescent towers of quartz and enchanted glass. Moonlight perpetually refracts through the spires, invoking shifting mosaics that cloak streets in mystic shadows.",
-    "era": "Age of Arcana (pre-industrial magical era), spanning the late seventh cycle of the Kingdom\u2019s lunar calendar.",
-    "technology_or_magic": "Magic is entwined with technology. Personal artifacts \u2014 \u2018soulbound relics\u2019 \u2014 are the source and limit of individual magical power; these range from inherited combs to ancient blade fragments. Citizens are born with Arcane Gifts, expressed through enchanted hair, heirlooms, or bioluminescent light crystals. Artificial Intelligences (AI) from the founders\u2019 era remain, ensconced in labyrinthine cores. All trade and labor are compensated in crystallized mana shards. Sacrificial acts of love literally alter one's magical resonance, enhancing or diminishing auras, sometimes permanently.",
-    "culture": "Lumerians revere the balance of giving and taking; selflessness is considered the ultimate wisdom. Gift-giving, especially of parts of one\u2019s soul relic, is culturally cherished but dangerous. Corporations are governed by councils of Mage-Executives who consult ancient AI \u2018Elders\u2019\u2014sentient servers with relic interfaces. Maintenance engineers are a respected caste, permitted to commune with AI. Augmentations are rare, mostly auditory, and seen as a mark of near-sacrificial vocation. Social status correlates with aura vibrancy and the potency of soul relics.",
-    "tone": "Mysterious, with currents of secret longing and the intangible price of devotion flowing beneath daily ritual.",
+    "setting": "The Kingdom of Lumeris \u2014 City of Crystal Spires. A labyrinthine metropolis of translucent towers and suspended walkways, aglow with prismatic light. At its heart stands the Citadel of Nodes, home to the ancient corporate AI called The Grand Lumen.",
+    "era": "Age of Arcana (pre-industrial magical era), where society balances hand-wrought craftsmanship with pervasive arcane technology.",
+    "technology_or_magic": "Magic operates through soulbound relics: artifacts fused to an individual's essence, granting unique powers (e.g., enchanting hair, light-wielding heirlooms). Each relic is fueled by the owner's aura, measured in mana shards\u2014a currency distilled from spiritual vigor. Arcane Gifts manifest as personalized enchantments. The most powerful AI, The Grand Lumen, houses its mind within the 'old man': a towering, cryptic mainframe featuring the 'eye', an ancient visual probe. Citizens use augmentations, such as the protagonist's auditory implant, which amplifies their senses for specialized tasks.",
+    "culture": "Society reveres the maintenance and evolution of magical technology. Personal sacrifice, especially one made for love, is visible: the act can literally fade or intensify one's magical aura, altering social status. Gift-giving is bitterly ironic\u2014some gifts sap the giver\u2019s own mana, enriching the recipient. Hierarchies are determined by one\u2019s relic resonance and mana shard reserves. Corporate guilds control access to core relic technologies and AI knowledge, and the AI's custodians are both respected and pitied for the burdens their roles entail.",
+    "tone": "Mysterious: The city\u2019s brilliance is tinged with secrecy. Emotions have tangible consequences, and hidden motives are wrapped in crystalline beauty.",
     "world_rules": [
-      "Magic is strictly bound to individual soul relics; overuse or gifting fragments weakens both magic and identity.",
-      "Mana shards are both currency and fuel for magic; running out leads to aura collapse.",
-      "Love-driven sacrifice viscerally impacts magical ability, visible through changes in aura color.",
-      "AI Elders cannot interact directly; they speak only through human intermediaries or mainframe avatars.",
-      "Maintenance areas are warded, filled with perceptible energy patterns and resonant server hums. Engineers with auditory augmentations experience these as near-painful symphonies.",
-      "Restoring a damaged relic is impossible; lost aura and magic are irretrievable."
+      "Soulbound relics cannot be safely transferred except through life-altering sacrifice.",
+      "Love-driven sacrifice can directly increase or diminish magical power.",
+      "Mana shards are finite; reckless spending or over-gifting leads to lasting aura loss.",
+      "AI nodes (like the 'old man') are revered yet feared, and only approved engineers may approach them.",
+      "Implanted augmentations enhance skills but make users vulnerable to sensory overload.",
+      "Enchantment misuse or failed sacrifices can result in permanent magical scars\u2014visible and social."
     ]
   },
   "mappings": {
     "character_mappings": [
       {
         "original_name": "Della",
-        "role": "Wife, protagonist",
-        "core_trait": "sacrificial",
-        "narrative_purpose": "Motivates the central act of selfless love, initiates plot through her sacrifice.",
+        "core_trait": "self-sacrificing",
+        "narrative_purpose": "Gives up her most valued possession for love, realizing true devotion surpasses material wealth.",
         "new_identity": {
           "name": "Seris",
-          "profession": "Maintenance Engineer, Resonance Caste",
-          "soul_relic": "Cascading Veil of Auralight\u2014her enchanted, bioluminescent hair that channels her unique magic.",
-          "arcana_gift": "Ability to attune and repair leyline harmonics through resonant song.",
-          "status": "Mana-poor, lower caste, respected for rare augmentations enabling AI communion.",
-          "arc": "From insecure and desperate to wise, eventually understanding that true worth is measured by the depth of love and sacrifice, not by material/arcane possessions."
+          "role": "Wife, apprentice arcanist specializing in auric tailoring (mana-infused attire enchantments)",
+          "most_valued_possession": "Her soulbound Aurora Tresses\u2014a living, luminescent hair-relic amplifying her creative magic and status",
+          "sacrifice": "Cedes her Tresses (relinquishing a portion of her aura and creative magic) to procure a mana chain for her partner's ancestral lightwatch relic"
         }
       },
       {
         "original_name": "Jim",
-        "role": "Husband, Della's counterpart",
         "core_trait": "devoted",
-        "narrative_purpose": "Mirrors Della\u2019s sacrifice, deepens emotional weight through reciprocal selflessness.",
+        "narrative_purpose": "Sells his treasured watch for his wife's happiness, understanding the depth of their mutual sacrifice.",
         "new_identity": {
-          "name": "Loras",
-          "profession": "Mana Courier at Glass Guild",
-          "soul_relic": "Celestial Chron\u2014ancestral timepiece relic set with a fragment of sky crystal, source of his magical tracking and brief time-manipulation ability.",
-          "arcana_gift": "Can alter short-lived moments in time, dependent on the relic's magic.",
-          "status": "Hardworking, a humble provider, under strain to maintain his dwindling mana shards.",
-          "arc": "Learns that the loss of his greatest arcane asset in the service of love paradoxically strengthens, not weakens, his bond with Seris."
+          "name": "Veyr",
+          "role": "Husband, low-tier engineer-custodian of the Citadel of Nodes, attuned to the luminous lightwatch relic (a chronotemporal artifact tied to his family line)",
+          "most_valued_possession": "Family lightwatch\u2014a soulbound timepiece enabling precise manipulation of light magic and social acknowledgment",
+          "sacrifice": "Exchanges his lightwatch (permanently severing his ancestral link and losing societal standing) to buy enchanted Crystal Combs, designed to resonate with Seris's Aurora Tresses"
         }
       },
       {
-        "original_name": "Hair dealer",
-        "role": "Enabler of Della\u2019s sacrifice",
-        "core_trait": "practical",
-        "narrative_purpose": "Catalyst for protagonist\u2019s sacrifice, emotionless agent of transaction.",
+        "original_name": "Hair Dealer",
+        "core_trait": "businesslike",
+        "narrative_purpose": "Facilitates Della\u2019s sacrifice, represents the transactional nature of her choice.",
         "new_identity": {
-          "name": "Archivist Ysil",
-          "profession": "Relic Fragment Broker, affiliated with the Guild of Ethershard Appraisers",
-          "soul_relic": "Unremarkable\u2014guilders rarely risk their own magic, specializing instead in dispassionate dealings.",
-          "arcana_gift": "Ability to appraise, fragment, and reweave minor soul relics for mana shards.",
-          "status": "Transactional, distant, strictly adheres to protocol.",
-          "arc": "No emotional development, remains a faceless functionary."
+          "name": "Shard Broker Lys",
+          "role": "Mana relic appraiser and extractor, operating in the shadows beneath the Crystal Spires\u2014detached, transactional middleperson who extracts and refines Seris's Tresses for mana shards",
+          "motivation": "Indifferent facilitator, enabling the aura-altering transaction"
         }
       }
     ],
-    "conflict_mappings": [
-      {
-        "root_tension": "Seris and Loras, deeply in love but suffering from acute mana-poverty, both seek to honor one another through meaningful, arcane-gifted presents for the Festival of Silver Moons. Both secretly plan sacrificial acts to obtain these gifts.",
-        "new_expression": [
-          "Seris sells a rare fragment of her Veil of Auralight\u2014diminishing her personal magic and reducing her aura\u2019s brilliance\u2014trading it at the Guild of Ethershard for enough mana shards to commission a bespoke starlight chain for Loras\u2019 Celestial Chron.",
-          "Loras, in parallel secrecy, brokers his family\u2019s Celestial Chron (his only conduit to time-magic) to an arcane artificer, acquiring enough condensed mana to purchase an Opaline Comb of Harmonizing, meant to amplify the resonance in Seris\u2019s Veil of Auralight.",
-          "Upon the exchange, both realize they have sacrificed their soul relics for the other\u2019s happiness, granting each a gift now rendered functionally useless.",
-          "The futility and beauty of their mirrored sacrifices\u2014both have irretrievably reduced their magical potential for love\u2014embody the core irony and emotional impact."
-        ]
-      }
-    ],
+    "conflict_mappings": {
+      "root_tension": "Both Seris and Veyr, bound by love yet strained by poverty in mana shards and relic prestige, secretly sacrifice their most treasured magical artifacts to procure gifts tailored to each other's soulbound relics\u2014unaware that their sacrifices render the gifts spiritually resonant but materially useless.",
+      "arcane_expression": [
+        "Seris surrenders the Aurora Tresses, losing an integral part of her magical aura, to afford the mana chain intended to rebalance Veyr's lightwatch.",
+        "Veyr, desperate to honor Seris's devotion, severs his bond to the lightwatch (forfeiting its magic and a link to his lineage) to purchase Crystal Combs designed to amplify Seris\u2019s now-absent Tresses.",
+        "Upon exchanging gifts, the futility of their efforts is revealed: the mana chain holds no power without the lightwatch, and the Crystal Combs cannot attune without the Aurora Tresses\u2014but their shared act of sacrifice causes their auras to shine with rare intensity, witnessed by the city's onlookers and the all-seeing 'eye' of The Grand Lumen."
+      ],
+      "emotional_consequence": "Their mutual sacrifices, while seemingly wasteful, forge an unbreakable arcane and emotional bond, exemplifying that love-driven sacrifice is the supreme enchantment."
+    },
     "preserved_dynamics": [
-      {
-        "relationship": "Seris & Loras",
-        "structure": "Devoted couple bound by reciprocal sacrifice; each act is a mirror of the other's selflessness.",
-        "motivations": "Determination to honor the beloved through profound personal loss, driven by love rather than material calculation.",
-        "emotional_arc": "Desperation > Secret sacrifice > Painful revelation > Enlightened embrace of love\u2019s true value."
-      },
-      {
-        "relationship": "Seris & Archivist Ysil",
-        "structure": "Transactional; Ysil enables Seris\u2019s self-sacrifice without emotional attachment.",
-        "motivation": "Pragmatic facilitation of mana/relic exchange.",
-        "emotional_arc": "No change; serves as a narrative agent of inevitability."
-      }
+      "Seris and Veyr share a partnership defined by self-sacrifice, with aura and magical status directly affected by their actions for each other.",
+      "Their mirrored acts of giving\u2014motivated by devotion\u2014undergo a transformation from personal loss to communal admiration when their auras flare in response to the sincerity of their love.",
+      "Their transaction with Shard Broker Lys is cold, highlighting how the magical economy is indifferent to profound personal meaning.",
+      "The irony of gift-giving is magnified in a society where magic, status, and love are physically intertwined, and sacrifice alters tangible reality as well as emotional bonds."
     ]
   }
 }

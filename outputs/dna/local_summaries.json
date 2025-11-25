@@ -3,36 +3,33 @@
     "characters": [
       {
         "name": "Della",
-        "role": "Jim's wife",
-        "trait": "sacrificial"
+        "role": "wife",
+        "trait": "self-sacrificing"
       },
       {
         "name": "Jim",
-        "role": "Della's husband",
+        "role": "husband",
         "trait": "devoted"
       },
       {
-        "name": "Hair dealer",
-        "role": "buys Della's hair",
-        "trait": "practical"
+        "name": "hair dealer",
+        "role": "buyer of Della's hair",
+        "trait": "businesslike"
       }
     ],
     "events": [
-      "Della laments only having $1.87 to buy Jim a Christmas gift.",
-      "Della's prized possession is her long hair; Jim's is his family gold watch.",
-      "Della decides to sell her hair to buy Jim a gift.",
-      "The hair dealer buys Della's hair for twenty dollars.",
+      "Della discovers she has only $1.87 saved for Jim's Christmas present.",
+      "She decides to sell her long hair for twenty dollars.",
       "Della buys a platinum chain for Jim's watch.",
-      "Jim comes home and is shocked at Della's appearance.",
-      "Jim reveals he sold his watch to buy jeweled combs for Della.",
-      "Della gives Jim the chain and learns the watch is gone.",
-      "The couple embraces, realizing their ironic sacrifices express deep love.",
-      "They are likened to 'the magi', wise through love's sacrifices."
+      "Jim returns home and reacts with shock upon seeing Della.",
+      "Jim reveals he bought jeweled combs for Della's hair.",
+      "Della gives Jim the chain and learns he sold his watch to buy the combs.",
+      "The couple embraces, realizing the depth of their mutual sacrifice."
     ],
     "themes": [
-      "Sacrifice for love",
-      "Irony of selfless giving",
-      "True wisdom in selflessness"
+      "self-sacrifice for love",
+      "irony of gift-giving",
+      "true value of devotion"
     ]
   }
 ]
