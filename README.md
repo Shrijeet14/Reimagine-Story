@@ -1,3 +1,10 @@
+# Demo Video
+
+Watch the full system walkthrough here:  
+**https://drive.google.com/file/d/1xzkIeM1BvLPNvuo-UZjGqCbONqscEVxG/view?usp=sharing**
+
+---
+
 # Architecture
 
 ![Reimagine Story Architecture](Reimagine_Story_Architecture.png)
